@@ -9,4 +9,4 @@ CREATE TABLE public.operations ( operation_id SERIAL PRIMARY KEY, "timestamp" TI
 
 Se asume que el valor mínimo ingresado permite es -50 y el valor máximo permitido es 50.
 
-Los datos de conexión se configuran en el archivo application.properties (spring.datasource.url, spring.datasource.username y spring.datasource.password). La api se levanta en el puerto 8089. Para la estructura del proyecto se utiliza como referencia la siguiente guía: https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2 Los tests automatizados se encuentra en el paquet scr/test/java.
+Los datos de conexión se configuran en el archivo application.properties (spring.datasource.url, spring.datasource.username y spring.datasource.password). La api se levanta en el puerto 8089. Para la estructura del proyecto se utiliza como referencia la siguiente guía: https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2 Los tests automatizados se encuentra en el paquete src/test/java.
